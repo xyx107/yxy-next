@@ -1,8 +1,8 @@
 {
   "extends": [
     "eslint:recommended",
-    "next",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "next/babel"
   ],
   "env": {
     "browser": true,
