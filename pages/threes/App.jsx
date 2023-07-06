@@ -1,7 +1,7 @@
 import React, {useRef, useState} from 'react';
 import {Canvas} from "react-three-fiber";
-import {useSpring, a} from "react-spring/three";
-import { softShadows, MeshWobbleMaterial, OrbitControls } from "drei";
+import {useSpring, a} from "react-spring";
+import { softShadows, MeshWobbleMaterial, OrbitControls } from "drei/dist";
 
 softShadows();  // 阴影模糊化
 
